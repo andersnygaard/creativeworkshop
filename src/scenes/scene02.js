@@ -17,13 +17,13 @@ scene.preload = (p) => {
 }
 
 scene.setup = (p) =>{
-    p.background(100);
+    p.background(200);
     pg = p.createGraphics(w, h, p.WEBGL);
-    pg.fill(100, 255, 255);
+    pg.fill(33);
 };
 
 scene.draw = (p) => {
-	pg.background(200, 255, 100);
+	pg.background(200);
 	
 	pg.rotateX(-speed);
 	pg.rotateY(speed);

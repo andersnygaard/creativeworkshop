@@ -1,9 +1,9 @@
-import scene01 from "/scene01.js";
-import scene02 from "/scene02.js";
-import scene03 from "/scene03.js";
-import endscene from "/endscene.js";
-import Music from "./music.js";
-import SceneTypes from "./Scenetypes.js";
+import scene01 from "/scenes/scene01.js";
+import scene02 from "/scenes/scene02.js";
+import scene03 from "/scenes/scene03.js";
+import endscene from "/scenes/endscene.js";
+import Music from "/music/music.js";
+import SceneTypes from "/Scenetypes.js";
 
 let sketch = function(p) {
     let sequence = [scene01, scene02, scene03, endscene];

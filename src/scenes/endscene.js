@@ -1,5 +1,5 @@
 import Scene from '/scene.js';
-import Scenetypes from './Scenetypes.js';
+import Scenetypes from '/Scenetypes.js';
 
 let scene = new Scene();
 let i = 0;
@@ -51,8 +51,8 @@ scene.draw = (p) => {
     p.stroke(0);
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(w/20);
-    p.text("tnx to", 0, -w/15);
-    p.text("bacalao", 0, 0);
+    p.text("Grenland", 0, -w/15);
+    p.text("Web dev", 0, 0);
     p.pop();
 
     zoff += 0.1;
