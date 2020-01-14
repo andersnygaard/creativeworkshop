@@ -1,0 +1,16 @@
+{
+  "name": "creativeworkshop",
+  "version": "1.0.0",
+  "description": "npm install\r gulp serve",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "connect-modrewrite": "^0.10.2",
+    "gulp": "^4.0.2"
+  }
+}
