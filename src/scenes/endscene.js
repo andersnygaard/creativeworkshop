@@ -54,6 +54,9 @@ scene.draw = (p) => {
     p.textSize(w/15);
     p.text("DOSIG", 0, 0);
     
+    p.textSize(14);
+    p.text("Det Ordner Seg I Grenland", 0, w/15);
+
     zoff += 0.1;
 
     p.pop();
