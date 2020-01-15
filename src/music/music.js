@@ -8,7 +8,6 @@ export default class Music {
             baseFrequency: 500
         }).connect(vol);
 
-        // create a new synth
         this.synth = new Tone.AMSynth({
             harmonicity: 2,
             detune: 0,
@@ -57,7 +56,7 @@ export default class Music {
     }
 
     fadeout() {
-        this.loop.stop();
-        this.synth.triggerRelease();
+        /*this.loop.stop();
+        this.synth.triggerRelease();*/
     }
 }

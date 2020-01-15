@@ -23,6 +23,8 @@ scene.setup = (p) =>{
 };
 
 scene.draw = (p) => {
+    p.push();
+
 	pg.background(200);
 	
 	pg.rotateX(-speed);
@@ -32,12 +34,13 @@ scene.draw = (p) => {
         
     p.image(pg, 0, 0);
 
-    p.push();
+    
     p.fill(0)
     p.stroke(255);
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(32);
     p.text("Scene 02", w - 100, h - 100);
+    
     p.pop();
 };
 

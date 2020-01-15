@@ -17,18 +17,19 @@ scene.preload = (p) => {
 }
 
 scene.setup = (p) =>{
-    p.background(100);
+    p.background(200);
     pg = p.createGraphics(w, h, p.WEBGL);
-    pg.fill(190);
+    pg.fill(255);
+    pg.stroke(255);
 };
 
 scene.draw = (p) => {
     p.push();
 
-	pg.background(33);
+	pg.background(200);
 	
 	pg.rotateX(speed);
-	pg.rotateY(speed);
+	pg.rotateY(-speed);
 	
 	pg.box(max/2, max/2, max/2);
 	    
@@ -38,8 +39,8 @@ scene.draw = (p) => {
     p.stroke(255);
     p.textAlign(p.CENTER, p.CENTER);
     p.textSize(32);
-    p.text("Scene 03", w - 100, h - 100);
-    
+    p.text("Scene 04", w - 100, h - 100);
+
     p.pop();
 };
 
