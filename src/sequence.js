@@ -4,7 +4,7 @@ import scene03 from "/scenes/scene03.js";
 import scene04 from "/scenes/scene04.js";
 import endscene from "/scenes/endscene.js";
 import Music from "/music/music.js";
-import SceneTypes from "/Scenetypes.js";
+import SceneTypes from "/scenetypes.js";
 
 let sketch = function(p) {
     let sequence = [scene01, scene02, scene03, scene04, endscene];
