@@ -6,4 +6,4 @@ Fork code and check out
 
 Open command prompt
 - npm install
-- gulp serve
+- npm start
