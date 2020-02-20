@@ -1,5 +1,5 @@
 import Scene from '/scene.js';
-import Scenetypes from '/Scenetypes.js';
+import Scenetypes from '/scenetypes.js';
 
 let scene = new Scene();
 let i = 0;

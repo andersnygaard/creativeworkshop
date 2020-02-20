@@ -1,4 +1,4 @@
-import SceneTypes from '/sceneTypes.js';
+import SceneTypes from '/scenetypes.js';
 
 export default class Scene {
 
